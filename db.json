@@ -1,0 +1,20 @@
+{
+  "restaurants": [
+    {
+      "name": "Salami",
+      "type": "Salam",
+      "state": "SA",
+      "county": "as",
+      "date": "100220020",
+      "id": 1
+    },
+    {
+      "name": "dds",
+      "type": "asda",
+      "state": "fasda",
+      "county": "sdas",
+      "date": "asd",
+      "id": 2
+    }
+  ]
+}
