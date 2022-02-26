@@ -2,6 +2,20 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.2.4.
 
+# Getting started
+Install JSON Server
+
+npm install -g json-server
+Create a db.json file with some data
+
+Start JSON Server
+
+json-server --watch db.json
+Now if you go to http://localhost:3000/posts/1, you'll get
+
+{ "id": 1, "title": "json-server", "author": "typicode" }
+
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
