@@ -6,7 +6,6 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 Install JSON Server
 
 npm install -g json-server
-Create a db.json file with some data
 
 Start JSON Server
 
