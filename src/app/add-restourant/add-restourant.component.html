@@ -1,0 +1,36 @@
+<p>add-restourant works!</p>
+
+
+<div *ngIf="alert" class="alert alert-success" role="alert">
+  You are successfully added new restourant!
+</div>
+
+<form [formGroup]="addRestourant" (ngSubmit)="collectRestourant()">
+    <div class="form-group align-items-center">
+        <label>Restourant Name</label>
+        <input type="text" class="form-control" placeholder="Enter name" formControlName="name">
+    </div>
+
+    <div class="form-group align-items-center">
+        <label>Restourant Type</label>
+        <input type="text" class="form-control" placeholder="Enter type" formControlName="type">
+    </div>
+
+    <div class="form-group align-items-center">
+        <label>Restourant State</label>
+        <input type="text" class="form-control" placeholder="Enter state" formControlName="state">
+    </div>
+
+
+    <div class="form-group align-items-center">
+        <label>Restourant County</label>
+        <input type="text" class="form-control" placeholder="Enter county" formControlName="county">
+    </div>
+
+    <div class="form-group align-items-center">
+        <label>Restourant Date</label>
+        <input type="text" class="form-control" placeholder="Enter date" formControlName="date">
+    </div>
+
+    <button (click)="closeAlert()" type="submit" class="btn btn-primary">Submit</button>
+</form>
